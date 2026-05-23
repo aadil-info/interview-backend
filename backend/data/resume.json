@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "mphbnely97n2",
+    "createdAt": "2026-05-22T19:37:41.302Z",
+    "userId": "mphblw5djjtb",
+    "fileName": "My Resume.pdf",
+    "atsScore": 45,
+    "skillsDetected": [
+      "Html",
+      "Go",
+      "Git",
+      "Linux",
+      "R"
+    ],
+    "missingSkills": [
+      "Aws",
+      "Azure",
+      "Docker",
+      "Kubernetes"
+    ],
+    "improvements": [
+      "Format check: Found structural sections: []. Consider explicitly adding missing sections like \"Summary\" or \"Certifications\" to improve readability.",
+      "Industry Keywords: We detected a strong alignment with **DEVOPS** development. We highly recommend integrating missing critical skills: [Aws, Azure, Docker, Kubernetes] in your skills table.",
+      "Action Verbs Tally: You have used 0 impact verbs. Try replacing passive statements (like \"responsible for writing code\") with strong action verbs (like \"spearheaded development of core microservices\").",
+      "Metrics Suggestion: Add quantifiable highlights. Rather than saying \"optimized database\", rewrite as \"optimized SQL queries, reducing API response times by 32% and enhancing user scalability\"."
+    ]
+  }
+]

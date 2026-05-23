@@ -1,0 +1,247 @@
+[
+  {
+    "_id": "mphbm7n6q235",
+    "createdAt": "2026-05-22T19:36:45.618Z",
+    "category": "technical",
+    "topic": "Javascript",
+    "difficulty": "beginner",
+    "questionText": "What is a closure in JavaScript and how does it work?",
+    "suggestedKeywords": [
+      "closure",
+      "lexical scope",
+      "outer function",
+      "inner function",
+      "encapsulation",
+      "variable access"
+    ],
+    "idealResponse": "A closure is the combination of a function bundled together with references to its surrounding state (the lexical environment). In other words, a closure gives an inner function access to the outer function's scope even after the outer function has returned. This is useful for data privacy (encapsulation) and maintaining state in asynchronous callbacks.",
+    "explanation": "Closures are a fundamental JS concept where nested functions retain access to parent scopes."
+  },
+  {
+    "_id": "mphbm7n9qja3",
+    "createdAt": "2026-05-22T19:36:45.621Z",
+    "category": "technical",
+    "topic": "CSS",
+    "difficulty": "beginner",
+    "questionText": "Explain the CSS Box Model.",
+    "suggestedKeywords": [
+      "box model",
+      "content",
+      "padding",
+      "border",
+      "margin",
+      "box-sizing",
+      "border-box"
+    ],
+    "idealResponse": "The CSS box model is a container that wraps around every HTML element. It consists of: content, padding (space around content), border (line wrapping the padding), and margin (space outside the border). By default, width and height only apply to the content. Using \"box-sizing: border-box\" incorporates padding and borders into the element's total specified width/height.",
+    "explanation": "The box model is the foundational layout structure of HTML elements on screen."
+  },
+  {
+    "_id": "mphbm7na9ujk",
+    "createdAt": "2026-05-22T19:36:45.622Z",
+    "category": "technical",
+    "topic": "Web Services",
+    "difficulty": "intermediate",
+    "questionText": "What are the main differences between REST APIs and GraphQL?",
+    "suggestedKeywords": [
+      "rest",
+      "graphql",
+      "endpoints",
+      "over-fetching",
+      "under-fetching",
+      "single endpoint",
+      "queries",
+      "schema"
+    ],
+    "idealResponse": "REST APIs use multiple endpoints representing resources (e.g. /users, /posts) and return fixed payloads, which often causes over-fetching or under-fetching. GraphQL uses a single HTTP endpoint where clients send queries specifying the exact fields they need, reducing network payload sizes. REST relies on HTTP methods (GET, POST), while GraphQL relies on a strongly-typed schema and queries/mutations.",
+    "explanation": "REST uses structured resource-based routing; GraphQL uses client-specified querying on a unified schema."
+  },
+  {
+    "_id": "mphbm7nbh869",
+    "createdAt": "2026-05-22T19:36:45.623Z",
+    "category": "technical",
+    "topic": "Node.js",
+    "difficulty": "intermediate",
+    "questionText": "Explain the Node.js Event Loop.",
+    "suggestedKeywords": [
+      "event loop",
+      "single threaded",
+      "non-blocking",
+      "asynchronous",
+      "call stack",
+      "callback queue",
+      "libuv",
+      "thread pool"
+    ],
+    "idealResponse": "Node.js is single-threaded but handles highly concurrent asynchronous operations using the Event Loop (powered by libuv). When an async operation occurs, Node delegates it to the system kernel or thread pool. Once complete, the callback is pushed to a callback queue. The event loop continuously checks if the Call Stack is empty; if so, it pushes the callback to the stack for execution.",
+    "explanation": "The event loop allows Node.js to achieve high-performance asynchronous I/O."
+  },
+  {
+    "_id": "mphbm7nb7q11",
+    "createdAt": "2026-05-22T19:36:45.623Z",
+    "category": "technical",
+    "topic": "React",
+    "difficulty": "advanced",
+    "questionText": "How does React's reconciliation algorithm and the Virtual DOM work under the hood?",
+    "suggestedKeywords": [
+      "virtual dom",
+      "reconciliation",
+      "diffing",
+      "fiber",
+      "render",
+      "keys",
+      "state update",
+      "patching"
+    ],
+    "idealResponse": "React maintains a Virtual DOM, which is a lightweight JavaScript representation of the actual DOM. When state changes, a new Virtual DOM tree is created. React uses a diffing algorithm (Reconciliation, now managed by React Fiber) to compare the new Virtual DOM tree with the previous one. It identifies changes with O(N) complexity using heuristics (like component types and keys) and applies only the necessary changes to the real DOM in a single batched repaint.",
+    "explanation": "Reconciliation minimizes expensive real-DOM manipulations using key-based diffing."
+  },
+  {
+    "_id": "mphbm7nc1q6z",
+    "createdAt": "2026-05-22T19:36:45.624Z",
+    "category": "hr",
+    "topic": "Introduction",
+    "difficulty": "beginner",
+    "questionText": "Tell me about yourself and your background.",
+    "suggestedKeywords": [
+      "background",
+      "experience",
+      "passionate",
+      "career",
+      "education",
+      "skills",
+      "achievements",
+      "growth"
+    ],
+    "idealResponse": "Focus on the \"Present-Past-Future\" formula. Start with your current role or studies, highlight a few key achievements or projects, explain how you got here (your education/background), and conclude with why you are excited about this specific opportunity and how it aligns with your future career growth.",
+    "explanation": "Introduce yourself concisely, highlighting professional details that match the target role."
+  },
+  {
+    "_id": "mphbm7ndpib9",
+    "createdAt": "2026-05-22T19:36:45.625Z",
+    "category": "hr",
+    "topic": "Career Fit",
+    "difficulty": "beginner",
+    "questionText": "Why should we hire you for this role?",
+    "suggestedKeywords": [
+      "alignment",
+      "unique value",
+      "skills",
+      "problem solver",
+      "contribute",
+      "culture fit",
+      "drive",
+      "goals"
+    ],
+    "idealResponse": "Explain that you possess the exact combination of skills, experience, and drive required. Share an example of how you solved a similar problem in the past, and explain that you are enthusiastic about their product/mission, making you both a high-value technical contributor and a great culture fit.",
+    "explanation": "Connect your unique competencies directly to the company's pain points."
+  },
+  {
+    "_id": "mphbm7nebysg",
+    "createdAt": "2026-05-22T19:36:45.626Z",
+    "category": "hr",
+    "topic": "Conflict Resolution",
+    "difficulty": "intermediate",
+    "questionText": "Describe a challenging conflict you had with a team member and how you resolved it.",
+    "suggestedKeywords": [
+      "conflict",
+      "communication",
+      "listening",
+      "empathy",
+      "compromise",
+      "professionalism",
+      "star method",
+      "result"
+    ],
+    "idealResponse": "Use the STAR method. Describe a Situation where there was a disagreement (e.g., technical direction). Explain the Task (finding a resolution). Detail your Actions: listening actively, speaking privately, discussing pros/cons objectively, and compromising. End with a positive Result: finishing the project successfully and building a stronger working relationship.",
+    "explanation": "Showcase emotional intelligence, team collaboration, and objective problem-solving."
+  },
+  {
+    "_id": "mphbm7neqa9m",
+    "createdAt": "2026-05-22T19:36:45.626Z",
+    "category": "hr",
+    "topic": "Leadership",
+    "difficulty": "advanced",
+    "questionText": "Tell me about a time you had to lead a project under tight deadlines and ambiguous requirements.",
+    "suggestedKeywords": [
+      "ambiguity",
+      "leadership",
+      "prioritization",
+      "agile",
+      "deadlines",
+      "stakeholders",
+      "delegation",
+      "risk mitigation"
+    ],
+    "idealResponse": "I was assigned to build a core feature with highly fluid specs. First, I aligned the stakeholders on a core MVP. I broken down the backlog, delegated tasks, set daily stand-ups to handle blocks, and maintained transparent communication. We delivered the MVP 2 days early, mitigating risk and enabling rapid user feedback loops.",
+    "explanation": "Emphasize your adaptability, structure, delegation, and clear communication under pressure."
+  },
+  {
+    "_id": "mphbm7nfcqay",
+    "createdAt": "2026-05-22T19:36:45.627Z",
+    "category": "aptitude",
+    "topic": "Quantitative",
+    "difficulty": "beginner",
+    "questionText": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+    "options": [
+      "120 meters",
+      "150 meters",
+      "324 meters",
+      "180 meters"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Speed in m/s = 60 * (5/18) = 50/3 m/s. Length (Distance) = Speed * Time = (50/3) * 9 = 150 meters.",
+    "suggestedKeywords": []
+  },
+  {
+    "_id": "mphbm7ng7ks8",
+    "createdAt": "2026-05-22T19:36:45.628Z",
+    "category": "aptitude",
+    "topic": "Logical Reasoning",
+    "difficulty": "beginner",
+    "questionText": "Find the next number in the sequence: 3, 5, 9, 17, 33, ...",
+    "options": [
+      "60",
+      "50",
+      "65",
+      "49"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "The pattern is (Previous number * 2) - 1. So, (33 * 2) - 1 = 65.",
+    "suggestedKeywords": []
+  },
+  {
+    "_id": "mphbm7nhvk7d",
+    "createdAt": "2026-05-22T19:36:45.629Z",
+    "category": "aptitude",
+    "topic": "Quantitative",
+    "difficulty": "intermediate",
+    "questionText": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream.",
+    "options": [
+      "2 hours",
+      "3 hours",
+      "4 hours",
+      "5 hours"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Downstream speed = Speed of boat + Speed of stream = 13 + 4 = 17 km/hr. Time = Distance / Speed = 68 / 17 = 4 hours.",
+    "suggestedKeywords": []
+  },
+  {
+    "_id": "mphbm7niiro7",
+    "createdAt": "2026-05-22T19:36:45.630Z",
+    "category": "aptitude",
+    "topic": "Logical Reasoning",
+    "difficulty": "intermediate",
+    "questionText": "If A + B means A is the brother of B; A - B means A is the sister of B and A * B means A is the father of B. Which of the following means that C is the son of M?",
+    "options": [
+      "M - N * C + F",
+      "F - C + N * M",
+      "M * N - C + F",
+      "M * C - N + F"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "In M * N - C + F: N is sister of C, and C is brother of F (hence C is male). M is the father of N. Since N, C, and F are siblings, M is the father of C. Thus, C is the son of M.",
+    "suggestedKeywords": []
+  }
+]
